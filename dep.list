@@ -1,0 +1,2 @@
+.cache/test.o: test/test.c test/../src/throw.h
+.cache/throw.o: src/throw.c src/throw.h
