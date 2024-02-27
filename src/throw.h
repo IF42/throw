@@ -10,11 +10,12 @@
 void 
 __throw(
     const char * file
+    , const char * func
     , int line
     , const char * format, ...);
 
 
 #define throw(...) \
-    __throw(__FILE__, __LINE__, __VA_ARGS__)
+    __throw(__FILE__, __func__, __LINE__, __VA_ARGS__)
 
 #endif

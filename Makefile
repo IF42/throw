@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -pedantic -Ofast
 LIBS = 
 
 
-TARGET = libthrow.a
+TARGET = libthr.a
 CACHE = .cache
 OUTPUT = $(CACHE)/release
 
