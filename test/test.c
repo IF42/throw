@@ -7,6 +7,7 @@
 int
 main(void)
 {
+    debug("Debug infomation\n");
     throw("Runtime exception\n");
 
     printf("Program exit..\n");
